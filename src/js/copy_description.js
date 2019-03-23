@@ -54,8 +54,8 @@ function copySelected() {
     selection.empty();
 }
 
-var i = Math.floor(Math.random() * 3);
-color = ['#4ECDC4', '#FF6B6B', '#F4D46B'];
+var i = 0;
+color = ['#4ECDC4', '#6e52ff', '#f4c440'];
 
 document.querySelectorAll('.color-shift').forEach(function(e) {
     e.addEventListener('click', function() {

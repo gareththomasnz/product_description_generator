@@ -96,6 +96,11 @@ html {
     border-color: #9ea7af;
 }
 
+.bt-btn-primary {
+    background-color: #4ECDC4;
+    border-color: #4ECDC4;
+}
+
 .bt-btn-red {
     background-color: #ff5150;
     border-color: #ff5150;
