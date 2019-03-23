@@ -34,3 +34,4 @@ var text4 = "<br/><br/>" +
     "<p><span>Buying items online can be a daunting task, so we want you to realize that there are absolutely ZERO risks in buying something and trying it out. If you don't like it, no hard feelings we'll make it right.</span></p>\n" +
     "<p><span>We have 24/7 Ticket and Email Support. Please contact us if you need assistance.</span></p>\n" +
     "<p><span> </span></p>";
+

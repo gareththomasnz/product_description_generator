@@ -6,7 +6,7 @@
     elem.select();
     document.execCommand("copy");
     document.body.removeChild(elem);
-    alert(text)
+    // alert(text)
 }
 
 function selectText() {
@@ -45,4 +45,32 @@ function copySelected() {
     selection.addRange(range);
     //add to clipboard.
     document.execCommand('copy');
+    changeColor();
+    console.log(i)
 }
+
+var i = Math.floor(Math.random() * 3);
+color = ['#4ECDC4', '#FF6B6B', '#F4D46B'];
+
+document.querySelectorAll('.color-shift').forEach(function(e) {
+    e.addEventListener('click', function() {
+        if (i == 2) {
+            i = 0;
+        } else {
+            i = i + 1;
+        }
+        this.style.backgroundColor = color[i];
+    })
+});
+
+// function changeColor() {
+//     Array.from(document.getElementById('copy-btn')).forEach(function (button) {
+//         button.style.backgroundColor = color[i];
+//         if (i == 2) {
+//             i = 0;
+//         } else {
+//             i = i + 1;
+//         }
+//
+//     })
+// }

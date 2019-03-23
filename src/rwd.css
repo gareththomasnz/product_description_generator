@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.bg-d {
+    background-color: #292F36;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -71,7 +75,6 @@ html {
     border-radius: .25rem;
 }
 
-
 .bt-shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -82,6 +85,15 @@ html {
 
 .bt-shadow-lg {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.bt-btn {
+    color: #fff;
+}
+
+.bt-btn-secondary {
+    background-color: #9ea7af;
+    border-color: #9ea7af;
 }
 
 /* For mobile phones: */
