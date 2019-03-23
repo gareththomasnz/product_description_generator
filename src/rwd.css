@@ -96,6 +96,11 @@ html {
     border-color: #9ea7af;
 }
 
+.bt-btn-red {
+    background-color: #ff5150;
+    border-color: #ff5150;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;

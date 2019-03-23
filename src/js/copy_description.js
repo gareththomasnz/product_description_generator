@@ -1,4 +1,10 @@
-﻿function copyToClipboard() {
+﻿function clearInput() {
+    document.getElementById("prod_name").value = "";
+    document.getElementById("prod_compare_price").value = "";
+    document.getElementById("prod_description").value = "";
+}
+
+function copyToClipboard() {
     var text = document.getElementById("out").innerHTML;
     var elem = document.createElement("textarea");
     document.body.appendChild(elem);
