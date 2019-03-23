@@ -1,4 +1,4 @@
-$('input').keyup(function () {
+﻿$('input').keyup(function () {
     text = '';
     var product_name = $('#prod_name').val();
     var product_compare_price = $('#prod_compare_price').val();
@@ -17,14 +17,14 @@ $('#prod_description').keyup(function () {
 });
 
 var text1 = "<p><span>Grab your Discounted ";
-var text2 = " </span><b>LAUNCH DISCOUNT</b><span> is on. Once we reach 300-unit sales, we will be increasing the price back up to ";
+var text2 = " </span>while the store <b>LAUNCH DISCOUNT</b><span> is on. Once we reach 300-unit sales, we will be increasing the price back up to $";
 var text3 = "</span><b> This is absolutely a great gift!</b></p>\n" +
     "<p><b>ORDER NOW because these are FLYING off our shelves! Limit to 5 per customer max!</b></p>\n" +
     "";
 var text4 = "<br/><br/>" +
     "<p><b><i>THIS PRODUCT IS A LIMITED PRODUCTION AND IS NOT AVAILABLE IN STORES. WILL SELL OUT FAST!</i></b></p>\n" +
     "<p><span>Click</span><span> </span><b><i>ADD TO CART<span> </span></i></b><span>to Order Yours Now!</span></p>\n" +
-    "<p><b>Satisfaction Guaranteed With Every Order. All prices are listed in USD.</b></p>\n" +
+    "<p><b>Satisfaction Guaranteed with Every Order. All prices are listed in USD.</b></p>\n" +
     "<p><b>Shipping Info:</b></p>\n" +
     "<p><b>- Estimated Delivery Time: US 10-25 Days; Worldwide 15-30 Days.</b></p>\n" +
     "<p> </p>\n" +
@@ -34,5 +34,3 @@ var text4 = "<br/><br/>" +
     "<p><span>Buying items online can be a daunting task, so we want you to realize that there are absolutely ZERO risks in buying something and trying it out. If you don't like it, no hard feelings we'll make it right.</span></p>\n" +
     "<p><span>We have 24/7 Ticket and Email Support. Please contact us if you need assistance.</span></p>\n" +
     "<p><span> </span></p>";
-
-
