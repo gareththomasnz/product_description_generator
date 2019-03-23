@@ -45,8 +45,7 @@ function copySelected() {
     selection.addRange(range);
     //add to clipboard.
     document.execCommand('copy');
-    changeColor();
-    console.log(i)
+    selection.empty();
 }
 
 var i = Math.floor(Math.random() * 3);
