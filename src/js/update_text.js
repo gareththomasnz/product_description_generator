@@ -19,10 +19,10 @@ $('#prod_description').keyup(function () {
 var text1 = "<p><span>Grab your Discounted ";
 var text2 = " </span>while the store <b>LAUNCH DISCOUNT</b><span> is on. Once we reach 300-unit sales, we will be increasing the price back up to $";
 var text3 = "</span><b> This is absolutely a great gift!</b></p>\n" +
-    "<p><b>ORDER NOW because these are FLYING off our shelves! Limit to 5 per customer max!</b></p>\n" +
+    "<p><b>ORDER NOW because these are FLYING off our shelves! Limit to 5 per customer max!</b></p><br/>\n" +
     "";
-var text4 = "<br/><br/>" +
-    "<p><b><i>THIS PRODUCT IS A LIMITED PRODUCTION AND IS NOT AVAILABLE IN STORES. WILL SELL OUT FAST!</i></b></p>\n" +
+var text4 = "<br/><br/><br/>" +
+    "<p><b><i>THIS PRODUCT HAS A LIMITED PRODUCTION AND IS NOT AVAILABLE IN STORES. THEY WILL SELL OUT FAST!</i></b></p>\n" +
     "<p><span>Click</span><span> </span><b><i>ADD TO CART<span> </span></i></b><span>to Order Yours Now!</span></p>\n" +
     "<p><b>Satisfaction Guaranteed with Every Order. All prices are listed in USD.</b></p>\n" +
     "<p><b>Shipping Info:</b></p>\n" +
