@@ -18,7 +18,7 @@ $('#prod_description').keyup(function () {
 
 var text1 = "<p><span>Grab your Discounted ";
 var text2 = " </span>while the store <b>LAUNCH DISCOUNT</b><span> is on. Once we reach 300-unit sales, we will be increasing the price back up.";
-var text3 = "</span><b> This is absolutely a great gift!</b></p>\n" +
+var text3 = "</span></p>\n" +
     "<p><b>ORDER NOW because these are FLYING off our shelves! Limit to 5 per customer max!</b></p><br/>\n" +
     "";
 var text4 = "<br/><br/><br/>" +
