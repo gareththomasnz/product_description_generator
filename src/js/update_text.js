@@ -3,7 +3,7 @@
     var product_name = $('#prod_name').val();
     var product_compare_price = $('#prod_compare_price').val();
     var product_description = $('#prod_description').val().replace(/\n/g, '<br/>');
-    text = text1 + product_name + text2 + product_compare_price + text3 + product_description + text4;
+    text = text1 + product_name + text2 + text3 + product_description + text4;
     $('#out').html(text);
 });
 
@@ -21,7 +21,7 @@ var text2 = " </span>while the store <b>LAUNCH DISCOUNT</b><span> is on. Once 
 var text3 = "</span></p>\n" +
     "<p><b>ORDER NOW because these are FLYING off our shelves! Limit to 5 per customer max!</b></p><br/>\n" +
     "";
-var text4 = "<br/><br/><br/>" +
+var text4 = "<br/><br/>" +
     "<p><b><i>THIS PRODUCT HAS A LIMITED PRODUCTION AND IS NOT AVAILABLE IN STORES. THEY WILL SELL OUT FAST!</i></b></p>\n" +
     "<p><span>Click</span><span> </span><b><i>ADD TO CART<span> </span></i></b><span>to Order Yours Now!</span></p>\n" +
     "<p><b>Satisfaction Guaranteed with Every Order. All prices are listed in USD.</b></p>\n" +

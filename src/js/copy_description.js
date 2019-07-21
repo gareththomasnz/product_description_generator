@@ -1,6 +1,6 @@
 ﻿function clearInput() {
     document.getElementById("prod_name").value = "";
-    document.getElementById("prod_compare_price").value = "";
+    // document.getElementById("prod_compare_price").value = "";
     document.getElementById("prod_description").value = "";
 }
 
