@@ -26,7 +26,7 @@ var text4 = "<br/><br/>" +
     "<p><span>Click</span><span> </span><b><i>ADD TO CART<span> </span></i></b><span>to Order Yours Now!</span></p>\n" +
     "<p><b>Satisfaction Guaranteed with Every Order. All prices are listed in USD.</b></p>\n" +
     "<p><b>Shipping Info:</b></p>\n" +
-    "<p><b>- Estimated Delivery Time: US 10-25 Days; Worldwide 15-30 Days.</b></p>\n" +
+    "<p><b>- Estimated Delivery Time: US 15-35 Days; Worldwide 20-40 Days.</b></p>\n" +
     "<h2><b>OUR GUARANTEE</b></h2>\n" +
     "<p><span>We truly believe we make some of the most innovative products in the world, and we want to make sure we back that up with a risk-free ironclad 30-day guarantee.</span></p>\n" +
     "<p><span>If you don't have a positive experience for ANY reason, we will do WHATEVER it takes to make sure you are 100% satisfied with your purchase.</span></p>\n" +
